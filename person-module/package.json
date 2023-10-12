@@ -1,0 +1,15 @@
+{
+  "name": "person-module",
+  "version": "1.0.0",
+  "description": "My TypeScript module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "typescript": "^4.4.3",
+    "ts-node": "^10.4.0"
+  }
+}
